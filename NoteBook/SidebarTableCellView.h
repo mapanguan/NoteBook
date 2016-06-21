@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SidebarTableCellView.h
 //  NoteBook
 //
 //  Created by iosDev1-mapanguan on 16/5/18.
@@ -8,8 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-//@property (strong) MainWindowController *mainWindow;
+@interface SidebarTableCellView : NSTableCellView{
+}
+@property (weak) IBOutlet NSButton *button;
+
+
 
 @end
-

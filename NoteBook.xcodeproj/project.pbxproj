@@ -7,18 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A24CF9A1D0DAD7A00C13023 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A24CF991D0DAD7A00C13023 /* WebKit.framework */; };
+		3A24CFAF1D0F054D00C13023 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A24CFAE1D0F054D00C13023 /* Tools.m */; };
+		3A28963D1D119EAE00748527 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3A28963C1D119EAE00748527 /* Credits.rtf */; };
+		3A2896401D119FBC00748527 /* FactionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A28963F1D119FBC00748527 /* FactionVC.m */; };
+		3A38C6CB1D104C25008C6EA2 /* DIYSheetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A38C6C91D104C25008C6EA2 /* DIYSheetVC.m */; };
+		3A38C6CC1D104C25008C6EA2 /* DIYSheetVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A38C6CA1D104C25008C6EA2 /* DIYSheetVC.xib */; };
+		3A38C6D51D10531B008C6EA2 /* DIYWindows.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A38C6D31D10531B008C6EA2 /* DIYWindows.m */; };
+		3A38C6D61D10531B008C6EA2 /* DIYWindows.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A38C6D41D10531B008C6EA2 /* DIYWindows.xib */; };
+		3A43A1B11CEFF1AC00320FFD /* MainWindows.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A43A1B01CEFF1AC00320FFD /* MainWindows.m */; };
+		3A4E4A531D08FDAD00CB8EEE /* FeedbackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E4A511D08FDAD00CB8EEE /* FeedbackVC.m */; };
+		3A4E4A541D08FDAD00CB8EEE /* FeedbackVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4E4A521D08FDAD00CB8EEE /* FeedbackVC.xib */; };
+		3A4E4A571D08FE5E00CB8EEE /* SettingWindows.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E4A561D08FE5E00CB8EEE /* SettingWindows.m */; };
+		3A4E4AA81D0BF8E700CB8EEE /* CuculateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E4AA61D0BF8E700CB8EEE /* CuculateVC.m */; };
+		3A4E4AA91D0BF8E700CB8EEE /* CuculateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4E4AA71D0BF8E700CB8EEE /* CuculateVC.xib */; };
+		3A4E4AB21D0BFD7A00CB8EEE /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E4AB01D0BFD7A00CB8EEE /* SettingVC.m */; };
+		3A4E4AB31D0BFD7A00CB8EEE /* SettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4E4AB11D0BFD7A00CB8EEE /* SettingVC.xib */; };
+		3A593AD31D1972FE000068B1 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A593AD21D1972FE000068B1 /* NotificationCenter.framework */; };
+		3A593AD91D1972FE000068B1 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A593AD81D1972FE000068B1 /* TodayViewController.m */; };
+		3A593ADC1D1972FE000068B1 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A593ADA1D1972FE000068B1 /* TodayViewController.xib */; };
+		3A593AE01D1972FE000068B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A593ADE1D1972FE000068B1 /* InfoPlist.strings */; };
+		3A593AE31D1972FE000068B1 /* NoticeCenterWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3A593AD01D1972FE000068B1 /* NoticeCenterWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3A82A3541D1638D5002D274F /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A82A3531D1638D5002D274F /* MyView.m */; };
+		3A82A3561D163941002D274F /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A82A3551D163941002D274F /* MyView.xib */; };
+		3AE7837E1CF00CFA001D6538 /* InvalidPeopleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7837C1CF00CFA001D6538 /* InvalidPeopleVC.m */; };
+		3AE7837F1CF00CFA001D6538 /* InvalidPeopleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE7837D1CF00CFA001D6538 /* InvalidPeopleVC.xib */; };
+		E45B20B11CEE912F0025F500 /* ToolBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45B20B01CEE912F0025F500 /* ToolBarController.m */; };
 		E4D889021CEBF50900C04116 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D889011CEBF50900C04116 /* AppDelegate.m */; };
 		E4D889051CEBF50900C04116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D889041CEBF50900C04116 /* main.m */; };
-		E4D889081CEBF50900C04116 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D889071CEBF50900C04116 /* ViewController.m */; };
 		E4D8890B1CEBF50900C04116 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D8890A1CEBF50900C04116 /* Document.m */; };
 		E4D8890E1CEBF50900C04116 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4D8890C1CEBF50900C04116 /* Document.xcdatamodeld */; };
 		E4D889101CEBF50900C04116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D8890F1CEBF50900C04116 /* Assets.xcassets */; };
 		E4D889131CEBF50900C04116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D889111CEBF50900C04116 /* Main.storyboard */; };
 		E4D8891E1CEBF50A00C04116 /* NoteBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D8891D1CEBF50A00C04116 /* NoteBookTests.m */; };
 		E4D889291CEBF50A00C04116 /* NoteBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D889281CEBF50A00C04116 /* NoteBookUITests.m */; };
+		E4DA5BA01CEC4CD0005A93A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DA5B9F1CEC4CD0005A93A3 /* ViewController.m */; };
+		E4DA5BA61CEC5004005A93A3 /* SidebarTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DA5BA51CEC5004005A93A3 /* SidebarTableCellView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3A593AE11D1972FE000068B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4D888F51CEBF50900C04116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A593ACF1D1972FE000068B1;
+			remoteInfo = NoticeCenterWidget;
+		};
 		E4D8891A1CEBF50A00C04116 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4D888F51CEBF50900C04116 /* Project object */;
@@ -35,13 +69,67 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3A593AE71D1972FE000068B1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3A593AE31D1972FE000068B1 /* NoticeCenterWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3A24CF991D0DAD7A00C13023 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3A24CFAD1D0F054D00C13023 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		3A24CFAE1D0F054D00C13023 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		3A28963C1D119EAE00748527 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		3A28963E1D119FBC00748527 /* FactionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactionVC.h; sourceTree = "<group>"; };
+		3A28963F1D119FBC00748527 /* FactionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactionVC.m; sourceTree = "<group>"; };
+		3A38C6C81D104C25008C6EA2 /* DIYSheetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIYSheetVC.h; path = VC/DIYSheetVC.h; sourceTree = "<group>"; };
+		3A38C6C91D104C25008C6EA2 /* DIYSheetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIYSheetVC.m; path = VC/DIYSheetVC.m; sourceTree = "<group>"; };
+		3A38C6CA1D104C25008C6EA2 /* DIYSheetVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DIYSheetVC.xib; path = VC/DIYSheetVC.xib; sourceTree = "<group>"; };
+		3A38C6D21D10531B008C6EA2 /* DIYWindows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIYWindows.h; path = Windows/DIYWindows.h; sourceTree = "<group>"; };
+		3A38C6D31D10531B008C6EA2 /* DIYWindows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIYWindows.m; path = Windows/DIYWindows.m; sourceTree = "<group>"; };
+		3A38C6D41D10531B008C6EA2 /* DIYWindows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DIYWindows.xib; path = Windows/DIYWindows.xib; sourceTree = "<group>"; };
+		3A43A1AF1CEFF1AC00320FFD /* MainWindows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindows.h; path = Windows/MainWindows.h; sourceTree = "<group>"; };
+		3A43A1B01CEFF1AC00320FFD /* MainWindows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainWindows.m; path = Windows/MainWindows.m; sourceTree = "<group>"; };
+		3A4E4A501D08FDAD00CB8EEE /* FeedbackVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedbackVC.h; path = VC/FeedbackVC.h; sourceTree = "<group>"; };
+		3A4E4A511D08FDAD00CB8EEE /* FeedbackVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedbackVC.m; path = VC/FeedbackVC.m; sourceTree = "<group>"; };
+		3A4E4A521D08FDAD00CB8EEE /* FeedbackVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FeedbackVC.xib; path = VC/FeedbackVC.xib; sourceTree = "<group>"; };
+		3A4E4A551D08FE5E00CB8EEE /* SettingWindows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingWindows.h; path = Windows/SettingWindows.h; sourceTree = "<group>"; };
+		3A4E4A561D08FE5E00CB8EEE /* SettingWindows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingWindows.m; path = Windows/SettingWindows.m; sourceTree = "<group>"; };
+		3A4E4AA51D0BF8E700CB8EEE /* CuculateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CuculateVC.h; path = VC/CuculateVC.h; sourceTree = "<group>"; };
+		3A4E4AA61D0BF8E700CB8EEE /* CuculateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CuculateVC.m; path = VC/CuculateVC.m; sourceTree = "<group>"; };
+		3A4E4AA71D0BF8E700CB8EEE /* CuculateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CuculateVC.xib; path = VC/CuculateVC.xib; sourceTree = "<group>"; };
+		3A4E4AAF1D0BFD7A00CB8EEE /* SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingVC.h; path = VC/SettingVC.h; sourceTree = "<group>"; };
+		3A4E4AB01D0BFD7A00CB8EEE /* SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingVC.m; path = VC/SettingVC.m; sourceTree = "<group>"; };
+		3A4E4AB11D0BFD7A00CB8EEE /* SettingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingVC.xib; path = VC/SettingVC.xib; sourceTree = "<group>"; };
+		3A593AD01D1972FE000068B1 /* NoticeCenterWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NoticeCenterWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A593AD21D1972FE000068B1 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		3A593AD61D1972FE000068B1 /* NoticeCenterWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NoticeCenterWidget.entitlements; sourceTree = "<group>"; };
+		3A593AD71D1972FE000068B1 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		3A593AD81D1972FE000068B1 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		3A593ADB1D1972FE000068B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
+		3A593ADD1D1972FE000068B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A593ADF1D1972FE000068B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A82A3501D159162002D274F /* NoteBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NoteBook.entitlements; sourceTree = "<group>"; };
+		3A82A3521D1638D5002D274F /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyView.h; path = View/MyView.h; sourceTree = "<group>"; };
+		3A82A3531D1638D5002D274F /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyView.m; path = View/MyView.m; sourceTree = "<group>"; };
+		3A82A3551D163941002D274F /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyView.xib; path = View/MyView.xib; sourceTree = "<group>"; };
+		3AE7837B1CF00CFA001D6538 /* InvalidPeopleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InvalidPeopleVC.h; path = VC/InvalidPeopleVC.h; sourceTree = "<group>"; };
+		3AE7837C1CF00CFA001D6538 /* InvalidPeopleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvalidPeopleVC.m; path = VC/InvalidPeopleVC.m; sourceTree = "<group>"; };
+		3AE7837D1CF00CFA001D6538 /* InvalidPeopleVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InvalidPeopleVC.xib; path = VC/InvalidPeopleVC.xib; sourceTree = "<group>"; };
+		E45B20AF1CEE912F0025F500 /* ToolBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToolBarController.h; path = Windows/ToolBarController.h; sourceTree = "<group>"; };
+		E45B20B01CEE912F0025F500 /* ToolBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToolBarController.m; path = Windows/ToolBarController.m; sourceTree = "<group>"; };
 		E4D888FD1CEBF50900C04116 /* NoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D889001CEBF50900C04116 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4D889011CEBF50900C04116 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E4D889041CEBF50900C04116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E4D889061CEBF50900C04116 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4D889071CEBF50900C04116 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E4D889091CEBF50900C04116 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
 		E4D8890A1CEBF50900C04116 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
 		E4D8890D1CEBF50900C04116 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
@@ -54,13 +142,26 @@
 		E4D889241CEBF50A00C04116 /* NoteBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D889281CEBF50A00C04116 /* NoteBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteBookUITests.m; sourceTree = "<group>"; };
 		E4D8892A1CEBF50A00C04116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DA5B9E1CEC4CD0005A93A3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = VC/ViewController.h; sourceTree = "<group>"; };
+		E4DA5B9F1CEC4CD0005A93A3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = VC/ViewController.m; sourceTree = "<group>"; };
+		E4DA5BA41CEC5004005A93A3 /* SidebarTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableCellView.h; sourceTree = "<group>"; };
+		E4DA5BA51CEC5004005A93A3 /* SidebarTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableCellView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3A593ACD1D1972FE000068B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A593AD31D1972FE000068B1 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4D888FA1CEBF50900C04116 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A24CF9A1D0DAD7A00C13023 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +182,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A1FC6411CEC9EB40016A118 /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				E4DA5BA41CEC5004005A93A3 /* SidebarTableCellView.h */,
+				E4DA5BA51CEC5004005A93A3 /* SidebarTableCellView.m */,
+			);
+			name = CellView;
+			sourceTree = "<group>";
+		};
+		3A28963B1D11941300748527 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MenuView;
+			sourceTree = "<group>";
+		};
+		3A4E4A4F1D08FD7600CB8EEE /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				3A4E4A551D08FE5E00CB8EEE /* SettingWindows.h */,
+				3A4E4A561D08FE5E00CB8EEE /* SettingWindows.m */,
+				3A4E4A501D08FDAD00CB8EEE /* FeedbackVC.h */,
+				3A4E4A511D08FDAD00CB8EEE /* FeedbackVC.m */,
+				3A4E4A521D08FDAD00CB8EEE /* FeedbackVC.xib */,
+				3AE7837B1CF00CFA001D6538 /* InvalidPeopleVC.h */,
+				3AE7837C1CF00CFA001D6538 /* InvalidPeopleVC.m */,
+				3AE7837D1CF00CFA001D6538 /* InvalidPeopleVC.xib */,
+				3A4E4AAF1D0BFD7A00CB8EEE /* SettingVC.h */,
+				3A4E4AB01D0BFD7A00CB8EEE /* SettingVC.m */,
+				3A4E4AB11D0BFD7A00CB8EEE /* SettingVC.xib */,
+				3A4E4AA51D0BF8E700CB8EEE /* CuculateVC.h */,
+				3A4E4AA61D0BF8E700CB8EEE /* CuculateVC.m */,
+				3A4E4AA71D0BF8E700CB8EEE /* CuculateVC.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		3A593AD11D1972FE000068B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A593AD21D1972FE000068B1 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A593AD41D1972FE000068B1 /* NoticeCenterWidget */ = {
+			isa = PBXGroup;
+			children = (
+				3A593AD71D1972FE000068B1 /* TodayViewController.h */,
+				3A593AD81D1972FE000068B1 /* TodayViewController.m */,
+				3A593ADA1D1972FE000068B1 /* TodayViewController.xib */,
+				3A593ADD1D1972FE000068B1 /* Info.plist */,
+				3A593ADE1D1972FE000068B1 /* InfoPlist.strings */,
+				3A593AD51D1972FE000068B1 /* Supporting Files */,
+			);
+			path = NoticeCenterWidget;
+			sourceTree = "<group>";
+		};
+		3A593AD51D1972FE000068B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A593AD61D1972FE000068B1 /* NoticeCenterWidget.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A82A3511D16388D002D274F /* DIYVIEW */ = {
+			isa = PBXGroup;
+			children = (
+				3A82A3521D1638D5002D274F /* MyView.h */,
+				3A82A3531D1638D5002D274F /* MyView.m */,
+				3A82A3551D163941002D274F /* MyView.xib */,
+			);
+			name = DIYVIEW;
+			sourceTree = "<group>";
+		};
 		E4D888F41CEBF50900C04116 = {
 			isa = PBXGroup;
 			children = (
 				E4D888FF1CEBF50900C04116 /* NoteBook */,
 				E4D8891C1CEBF50A00C04116 /* NoteBookTests */,
 				E4D889271CEBF50A00C04116 /* NoteBookUITests */,
+				3A593AD41D1972FE000068B1 /* NoticeCenterWidget */,
+				3A593AD11D1972FE000068B1 /* Frameworks */,
 				E4D888FE1CEBF50900C04116 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +276,7 @@
 				E4D888FD1CEBF50900C04116 /* NoteBook.app */,
 				E4D889191CEBF50A00C04116 /* NoteBookTests.xctest */,
 				E4D889241CEBF50A00C04116 /* NoteBookUITests.xctest */,
+				3A593AD01D1972FE000068B1 /* NoticeCenterWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,17 +284,37 @@
 		E4D888FF1CEBF50900C04116 /* NoteBook */ = {
 			isa = PBXGroup;
 			children = (
+				3A82A3511D16388D002D274F /* DIYVIEW */,
+				3A82A3501D159162002D274F /* NoteBook.entitlements */,
+				3A28963C1D119EAE00748527 /* Credits.rtf */,
+				3A28963E1D119FBC00748527 /* FactionVC.h */,
+				3A28963F1D119FBC00748527 /* FactionVC.m */,
+				3A28963B1D11941300748527 /* MenuView */,
+				3A4E4A4F1D08FD7600CB8EEE /* Setting */,
+				3A1FC6411CEC9EB40016A118 /* CellView */,
 				E4D889001CEBF50900C04116 /* AppDelegate.h */,
 				E4D889011CEBF50900C04116 /* AppDelegate.m */,
-				E4D889061CEBF50900C04116 /* ViewController.h */,
-				E4D889071CEBF50900C04116 /* ViewController.m */,
 				E4D889091CEBF50900C04116 /* Document.h */,
 				E4D8890A1CEBF50900C04116 /* Document.m */,
+				3A43A1AF1CEFF1AC00320FFD /* MainWindows.h */,
+				3A43A1B01CEFF1AC00320FFD /* MainWindows.m */,
+				E4DA5B9E1CEC4CD0005A93A3 /* ViewController.h */,
+				E4DA5B9F1CEC4CD0005A93A3 /* ViewController.m */,
+				E45B20AF1CEE912F0025F500 /* ToolBarController.h */,
+				E45B20B01CEE912F0025F500 /* ToolBarController.m */,
+				3A38C6C81D104C25008C6EA2 /* DIYSheetVC.h */,
+				3A38C6C91D104C25008C6EA2 /* DIYSheetVC.m */,
+				3A38C6CA1D104C25008C6EA2 /* DIYSheetVC.xib */,
 				E4D8890F1CEBF50900C04116 /* Assets.xcassets */,
 				E4D889111CEBF50900C04116 /* Main.storyboard */,
+				3A38C6D21D10531B008C6EA2 /* DIYWindows.h */,
+				3A38C6D31D10531B008C6EA2 /* DIYWindows.m */,
+				3A38C6D41D10531B008C6EA2 /* DIYWindows.xib */,
 				E4D889141CEBF50900C04116 /* Info.plist */,
 				E4D8890C1CEBF50900C04116 /* Document.xcdatamodeld */,
 				E4D889031CEBF50900C04116 /* Supporting Files */,
+				3A24CFAD1D0F054D00C13023 /* Tools.h */,
+				3A24CFAE1D0F054D00C13023 /* Tools.m */,
 			);
 			path = NoteBook;
 			sourceTree = "<group>";
@@ -139,6 +339,7 @@
 		E4D889271CEBF50A00C04116 /* NoteBookUITests */ = {
 			isa = PBXGroup;
 			children = (
+				3A24CF991D0DAD7A00C13023 /* WebKit.framework */,
 				E4D889281CEBF50A00C04116 /* NoteBookUITests.m */,
 				E4D8892A1CEBF50A00C04116 /* Info.plist */,
 			);
@@ -148,6 +349,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3A593ACF1D1972FE000068B1 /* NoticeCenterWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A593AE61D1972FE000068B1 /* Build configuration list for PBXNativeTarget "NoticeCenterWidget" */;
+			buildPhases = (
+				3A593ACC1D1972FE000068B1 /* Sources */,
+				3A593ACD1D1972FE000068B1 /* Frameworks */,
+				3A593ACE1D1972FE000068B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoticeCenterWidget;
+			productName = NoticeCenterWidget;
+			productReference = 3A593AD01D1972FE000068B1 /* NoticeCenterWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		E4D888FC1CEBF50900C04116 /* NoteBook */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4D8892D1CEBF50A00C04116 /* Build configuration list for PBXNativeTarget "NoteBook" */;
@@ -155,10 +373,12 @@
 				E4D888F91CEBF50900C04116 /* Sources */,
 				E4D888FA1CEBF50900C04116 /* Frameworks */,
 				E4D888FB1CEBF50900C04116 /* Resources */,
+				3A593AE71D1972FE000068B1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3A593AE21D1972FE000068B1 /* PBXTargetDependency */,
 			);
 			name = NoteBook;
 			productName = NoteBook;
@@ -210,8 +430,25 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "iosDev1-mapanguan";
 				TargetAttributes = {
+					3A593ACF1D1972FE000068B1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = QZL5CFM887;
+						DevelopmentTeamName = "ma panguan (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
 					E4D888FC1CEBF50900C04116 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QZL5CFM887;
+						DevelopmentTeamName = "ma panguan (Personal Team)";
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					E4D889181CEBF50A00C04116 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -239,17 +476,35 @@
 				E4D888FC1CEBF50900C04116 /* NoteBook */,
 				E4D889181CEBF50A00C04116 /* NoteBookTests */,
 				E4D889231CEBF50A00C04116 /* NoteBookUITests */,
+				3A593ACF1D1972FE000068B1 /* NoticeCenterWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3A593ACE1D1972FE000068B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A593ADC1D1972FE000068B1 /* TodayViewController.xib in Resources */,
+				3A593AE01D1972FE000068B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4D888FB1CEBF50900C04116 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A38C6D61D10531B008C6EA2 /* DIYWindows.xib in Resources */,
+				3A28963D1D119EAE00748527 /* Credits.rtf in Resources */,
+				3AE7837F1CF00CFA001D6538 /* InvalidPeopleVC.xib in Resources */,
 				E4D889101CEBF50900C04116 /* Assets.xcassets in Resources */,
+				3A4E4A541D08FDAD00CB8EEE /* FeedbackVC.xib in Resources */,
+				3A4E4AA91D0BF8E700CB8EEE /* CuculateVC.xib in Resources */,
 				E4D889131CEBF50900C04116 /* Main.storyboard in Resources */,
+				3A4E4AB31D0BFD7A00CB8EEE /* SettingVC.xib in Resources */,
+				3A82A3561D163941002D274F /* MyView.xib in Resources */,
+				3A38C6CC1D104C25008C6EA2 /* DIYSheetVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +525,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3A593ACC1D1972FE000068B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A593AD91D1972FE000068B1 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4D888F91CEBF50900C04116 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E4D8890B1CEBF50900C04116 /* Document.m in Sources */,
-				E4D889081CEBF50900C04116 /* ViewController.m in Sources */,
+				3A4E4AB21D0BFD7A00CB8EEE /* SettingVC.m in Sources */,
+				3A82A3541D1638D5002D274F /* MyView.m in Sources */,
+				3A4E4AA81D0BF8E700CB8EEE /* CuculateVC.m in Sources */,
 				E4D889051CEBF50900C04116 /* main.m in Sources */,
+				3AE7837E1CF00CFA001D6538 /* InvalidPeopleVC.m in Sources */,
+				3A38C6CB1D104C25008C6EA2 /* DIYSheetVC.m in Sources */,
+				3A24CFAF1D0F054D00C13023 /* Tools.m in Sources */,
 				E4D8890E1CEBF50900C04116 /* Document.xcdatamodeld in Sources */,
+				3A38C6D51D10531B008C6EA2 /* DIYWindows.m in Sources */,
 				E4D889021CEBF50900C04116 /* AppDelegate.m in Sources */,
+				E4DA5BA61CEC5004005A93A3 /* SidebarTableCellView.m in Sources */,
+				E45B20B11CEE912F0025F500 /* ToolBarController.m in Sources */,
+				3A2896401D119FBC00748527 /* FactionVC.m in Sources */,
+				3A43A1B11CEFF1AC00320FFD /* MainWindows.m in Sources */,
+				E4DA5BA01CEC4CD0005A93A3 /* ViewController.m in Sources */,
+				3A4E4A571D08FE5E00CB8EEE /* SettingWindows.m in Sources */,
+				3A4E4A531D08FDAD00CB8EEE /* FeedbackVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +577,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3A593AE21D1972FE000068B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A593ACF1D1972FE000068B1 /* NoticeCenterWidget */;
+			targetProxy = 3A593AE11D1972FE000068B1 /* PBXContainerItemProxy */;
+		};
 		E4D8891B1CEBF50A00C04116 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E4D888FC1CEBF50900C04116 /* NoteBook */;
@@ -314,6 +595,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3A593ADA1D1972FE000068B1 /* TodayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A593ADB1D1972FE000068B1 /* Base */,
+			);
+			name = TodayViewController.xib;
+			sourceTree = "<group>";
+		};
+		3A593ADE1D1972FE000068B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A593ADF1D1972FE000068B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		E4D889111CEBF50900C04116 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -325,6 +622,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3A593AE41D1972FE000068B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = NoticeCenterWidget/NoticeCenterWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NoticeCenterWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuancui.NoteBook.NoticeCenterWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3A593AE51D1972FE000068B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = NoticeCenterWidget/NoticeCenterWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NoticeCenterWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuancui.NoteBook.NoticeCenterWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		E4D8892B1CEBF50A00C04116 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -410,9 +739,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NoteBook/NoteBook.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = NoteBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuancui.NoteBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,9 +754,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NoteBook/NoteBook.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = NoteBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuancui.NoteBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -483,6 +818,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3A593AE61D1972FE000068B1 /* Build configuration list for PBXNativeTarget "NoticeCenterWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A593AE41D1972FE000068B1 /* Debug */,
+				3A593AE51D1972FE000068B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E4D888F81CEBF50900C04116 /* Build configuration list for PBXProject "NoteBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -499,6 +843,7 @@
 				E4D8892F1CEBF50A00C04116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4D889301CEBF50A00C04116 /* Build configuration list for PBXNativeTarget "NoteBookTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +852,7 @@
 				E4D889321CEBF50A00C04116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4D889331CEBF50A00C04116 /* Build configuration list for PBXNativeTarget "NoteBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +861,7 @@
 				E4D889351CEBF50A00C04116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
